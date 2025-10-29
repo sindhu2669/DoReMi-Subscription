@@ -1,0 +1,78 @@
+.result-card {
+  max-width: 550px;
+  margin: 30px auto;
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  padding: 25px 30px;
+  font-family: "Poppins", sans-serif;
+  transition: all 0.3s ease-in-out;
+}
+
+.result-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.result-title {
+  text-align: center;
+  color: #333;
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.result-section {
+  border: 1px solid #eee;
+  border-radius: 15px;
+  padding: 15px;
+  margin-bottom: 15px;
+  background: #fafafa;
+  transition: 0.2s;
+}
+
+.result-section:hover {
+  background: #f2f9ff;
+  border-color: #b3e5fc;
+}
+
+.result-header {
+  font-weight: 600;
+  color: #222;
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+.result-category {
+  color: #0066cc;
+  font-weight: 700;
+}
+
+.result-plan {
+  color: #555;
+}
+
+.result-details {
+  font-size: 0.95rem;
+  color: #333;
+  line-height: 1.6;
+}
+
+.label {
+  font-weight: 600;
+  color: #444;
+  margin-right: 5px;
+}
+
+.result-footer {
+  border-top: 1px solid #eee;
+  margin-top: 20px;
+  padding-top: 15px;
+  text-align: center;
+}
+
+.total-amount {
+  color: #007b5e;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
